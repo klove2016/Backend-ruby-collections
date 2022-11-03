@@ -1,6 +1,6 @@
 def add_up(i)
     if i.is_a?(Integer) && i > 0
-        counter = i
+        counter = 0
             for num in 1..i
              counter = counter + num
             end

@@ -8,8 +8,6 @@
     for year in start_year..end_year
         if year % 400 == 0 || (year % 4 == 0 && (year % 100 != 0))
             leap_years.push(year)
-        else
-            next
         end
     end
    
